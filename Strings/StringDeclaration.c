@@ -5,6 +5,7 @@ int main(){
     printf("%s\n", name);
     float f = 88e9;
     printf("%.1f\n", f);
-    const char girlfriend[] = "Smriti";
-    printf("%s", girlfriend);
+    const char assistant[] = "Smriti";
+    printf("%s", assistant);
+    getchar();
 }
