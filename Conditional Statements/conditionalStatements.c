@@ -1,5 +1,6 @@
 #include <stdio.h>
-void main(){
+void main()
+{
     printf("%s", "Mastering Conditional Statements in C\n");
     // printf("%s", "There are 4 Conditionals in :\n");
     // printf("%s", "if -> executes the block when condtion true.\n");
@@ -11,20 +12,23 @@ void main(){
     float time;
     printf("%s", "\n\nEnter the time in 24 Hours Format:");
     scanf("%f", &time);
-    if (time>=4 && time<12){
+    if (time >= 4 && time < 12)
+    {
         printf("%s", "Good Morning");
     }
-    else if (time>12 && time<17){
+    else if (time > 12 && time < 17)
+    {
         printf("%s", "Good Afternoon");
     }
-    else if(time>17 && time<24){
+    else if (time > 17 && time <= 24)
+    {
         printf("%s", "Good Night\n");
     }
-    //We can't put condition in () after else
-    else{
+    // We can't put condition in () after else
+    else
+    {
         printf("%s", "Invalid Time Entered!");
     }
-
+    getchar();
+    getchar();
 }
-
-
