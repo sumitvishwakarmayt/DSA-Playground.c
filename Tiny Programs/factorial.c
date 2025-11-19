@@ -22,6 +22,7 @@ int main()
     {
         printf("The entered number is negative or invalid bruh! ♥");
     }
-
+    getchar();
+    getchar();
     return 0;
 }
